@@ -7,6 +7,7 @@ import App from './App'
 {{#router}}
 import router from './router'
 {{/router}}
+import store from './vuex'
 
 Vue.config.productionTip = false
 
@@ -15,6 +16,7 @@ new Vue({
   el: '#app',
   {{#router}}
   router,
+  store,
   {{/router}}
   {{#if_eq build "runtime"}}
   render: h => h(App)
