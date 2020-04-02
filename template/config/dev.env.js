@@ -9,4 +9,5 @@ module.exports = merge(prodEnv, {
   LOGIN_USER_INFO: '"/manager/public/getLoginUser"',
   MENU_URL: '"/manager/public/getApplicationMenu"', // 获取当前用户菜单URL
   TREE_MENU: '"/manager/public/getUserMenuTree"' // 获取当前用户菜单树
+  test: '"22"'
 })
