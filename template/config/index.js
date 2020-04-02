@@ -11,20 +11,16 @@ module.exports = {
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
     proxyTable: {
-      '/NewlyBuiltNetSign': {
-        changeOrigin: true,
-        target: 'http://localhost:8888' //服务端IP和端口代理设置，重新npm run dev生效
-      },
       '/shz-manager': {
-        target: 'http://10.110.60.64:7777/', //服务端IP和端口代理设置，重新npm run dev生效
+        target: 'http://10.110.60.64:7777/',
         changeOrigin: true
       },
       '/manager': {
-        target: 'http://localhost:8081/', //服务端IP和端口代理设置，重新npm run dev生效
+        target: 'http://localhost:8081/',
         changeOrigin: true
       },
       '/shz-o2a': {
-        target: 'http://10.110.60.64:7777/', //服务端IP和端口代理设置，重新npm run dev生效
+        target: 'http://10.110.60.64:7777/',
         changeOrigin: true
       }
     },
