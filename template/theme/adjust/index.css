@@ -1,0 +1,11 @@
+.el-scrollbar__wrap {
+  overflow-x: hidden !important;
+  margin-bottom: 0 !important;
+}
+
+.el-menu-item:hover{
+  background-color: #ffffff55 !important;
+}
+.el-submenu__title:hover{
+  background-color: #ffffff55 !important;
+}
